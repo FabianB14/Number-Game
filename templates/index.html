@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div><h1>Welcome to the Great Number Game!</h1></div>
+        <p> I am thinking of a gma e between 1 and 100</p>
+        <p>Take  a guess!</p>
+    <form action="/play" method="post">
+        <input type="text"name="user" min="1" max = "100">
+            <p>{{session['display']}}</p>
+        <a href=/> <button>Submit</button></a>
+        
+    </form>
+    
+</body>
+</html>
